@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Poppins, sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+
+    .background {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/foto3.png);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(59, 53, 53, 0.541);
+        border: 1px solid #333; 
+      }
+      
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+    text-align: center;
+}
+
+.cabeçalho-link a{
+    color: white;
+    font-size: 20px;
+}
+
+.cabeçalho-link a:hover{
+    color: #f66504;
+    transition: 0.3s all;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+    background: transparent;
+    border: 2px solid #f66504;
+    color: #f66504;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+button{
+    color: #f66504;
+    background: transparent;
+    border: solid 1px #f66504;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+    border-width: 3px;
+    border-style: solid;
+}
+
+button:hover{
+    background-color: #f66504;
+    color: white;
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 150px 0 0 130px;
+}
+
+.text h3{
+    color: #fff;
+    font-size: 30px;
+}
+
+.text h1{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.text span{
+    color: #f66504;
+}
+
+.text p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.redes-sociais{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.redes-sociais a{
+    color: #f66504;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.btn{
+    margin-top: 10px;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.btn a{
+    color: #f66504;
+}
+
+.Sobre-Mim{
+    background-color: rgba(59, 53, 53, 0.541);
+    font-family: Poppins, sans-serif; 
+    font-size: 16px; 
+    color: #333; 
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .Sobre-Mim h1 {
+    font-size: 50px; /* Tamanho da fonte para o cabeçalho h1 */
+    color: #FF5733; /* Cor do cabeçalho */
+    margin-bottom: 10px; /* Margem inferior para separar o cabeçalho do texto */
+  }
+  
+  .Sobre-Mim p {
+    margin-bottom: 10px; /* Espaçamento entre parágrafos */
+  }
+  
+  /* Estilo para a última frase com destaque */
+  .Sobre-Mim p:last-child {
+    font-weight: bold;
+    color: #FF5733; /* Cor de destaque */
+  }
+  
+  .background-inicial {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: 100%;
+    background-position: center;
+    color: #fff; /* Define a cor do texto para que seja legível no fundo escuro */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+  }
+  
+  body {
+    font-family: Poppins, sans-serif;
+    background-color: #250b0b;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+.header1 {
+    background-color: #f66504;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.experiencia{
+    background-color: (rgba(0, 0, 0, 0.5));
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    color: #007BFF;
+}
+
+footer {
+    background-color: #f66504;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px;
+
+}
+
+.experiencia {
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #f2f2f2;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+
+#texcourier, #sese, #inovarh {
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #f2f2f2;
+}
+
+#texcourier h2, #sese h2, #inovarh h2 {
+    color: #007BFF;
+}
+
+.trabalho {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evita a barra de rolagem horizontal */
+}
+
+.trabalhos {
+    background-image: url(./images/image.jpeg);
+    width: 100%;
+    height: 100vh; 
+}
